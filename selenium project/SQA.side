@@ -1,0 +1,1318 @@
+{
+  "id": "98534a3f-b3d7-4b5d-9fbb-fd77cb364d96",
+  "version": "2.0",
+  "name": "SQA",
+  "url": "https://www.gulftalent.com/uae/salaries/it-manager",
+  "tests": [{
+    "id": "399ccd2c-c311-4bff-88c9-805c8b5b7c2a",
+    "name": "TC_ContactUs_1positive",
+    "commands": [{
+      "id": "01e1f8eb-a818-4ae1-8e5e-26abd0812a09",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gulftalent.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "846fbfd3-0836-4d8a-952b-394008c1ad77",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4679799-989f-460e-919c-ec2288bc3df2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2561)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc6997b9-d48d-4542-88dd-de4d64898236",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=.col-sm-4:nth-child(5) li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact us')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/footer/section/div/div/div[5]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contact-us')]", "xpath:href"],
+        ["xpath=//div[5]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb8337f3-d0fe-4525-a36f-2a156e73a827",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Salaries",
+      "targets": [
+        ["linkText=Salaries", "linkText"],
+        ["css=.section-salaries > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Salaries')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[48]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9ec2aad-f0ae-4c6a-85fb-4cedf0363683",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6965ece-75b7-46d9-b27b-70940868b519",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help Center",
+      "targets": [
+        ["linkText=Help Center", "linkText"],
+        ["css=.list-group-item > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Help Center')]", "xpath:link"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/faqs')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help Center')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4a76bcb-cf7a-456b-a2f7-799122c53fe5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Resources",
+      "targets": [
+        ["linkText=Resources", "linkText"],
+        ["css=.section-resources > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Resources')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[59]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "709aa56c-1c34-49c4-9c35-1ee9ca4cf67c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Resources",
+      "targets": [
+        ["linkText=Resources", "linkText"],
+        ["css=.section-resources > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Resources')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[59]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d4d00f1-03f1-44a6-b795-69b11b1dc7ad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06efb7b6-c1b2-46ff-8132-edd350bc70c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=#react-candidate-help .list-group-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact us')]", "xpath:link"],
+        ["xpath=//div[@id='react-candidate-help']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contact')]", "xpath:href"],
+        ["xpath=//div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e99b1f66-fe3e-4781-9a64-af17a825ba2d",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.space-top-base:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93f38e7f-5419-45c5-b915-4ce70220f88c",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.space-top-base:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " kareem"
+    }, {
+      "id": "219c6bec-2568-4981-8032-aa4ac452a174",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.space-top-base:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "984fd889-ea2a-403e-afd9-1be9037d6b8f",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.space-top-base:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mayaElrefai2002@gmail.com"
+    }, {
+      "id": "234838a8-0163-4af1-afec-1366763b49b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Appreciation",
+      "targets": [
+        ["linkText=Appreciation", "linkText"],
+        ["css=.pill-button-group:nth-child(1) > .pill-button:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Appreciation')]", "xpath:link"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[3]/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Appreciation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37b02b24-7bf5-430e-afdc-7e1a46b3ea07",
+      "comment": "",
+      "command": "click",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.space-top-base:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee8f3791-865c-4ace-83a9-3e8c1b17c216",
+      "comment": "",
+      "command": "type",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.space-top-base:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "good site"
+    }, {
+      "id": "f1cbcfac-fac7-412f-8749-f9ddb490bae9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-4",
+      "targets": [
+        ["css=.my-4", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dee37d34-b7b8-4a54-ad1d-b66f55866766",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Browse all jobs",
+      "targets": [
+        ["linkText=Browse all jobs", "linkText"],
+        ["css=.list-group-item:nth-child(4)", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[6]/div[2]/div[2]/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/jobs')])[32]", "xpath:href"],
+        ["xpath=//div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,' Browse all jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "456414ad-e164-4c68-adc3-fc727f5df3a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Browse all jobs",
+      "targets": [
+        ["linkText=Browse all jobs", "linkText"],
+        ["css=.list-group-item:nth-child(4)", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[6]/div[2]/div[2]/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/jobs')])[32]", "xpath:href"],
+        ["xpath=//div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,' Browse all jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c92aff4-98a2-4155-8dc7-e252f7d02420",
+      "comment": "",
+      "command": "answerOnNextPrompt",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8ffa478e-a00c-4117-82cb-47ffc52d9910",
+    "name": "TC_ContactUs_2negative",
+    "commands": [{
+      "id": "43a83779-e058-446f-87c8-7c48877f9f8d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gulftalent.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b35c9331-f590-41b0-b680-895095e8d7cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc5c1847-132f-4482-9b72-9fbafc3933fb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=.col-sm-4:nth-child(5) li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact us')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/footer/section/div/div/div[5]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contact-us')]", "xpath:href"],
+        ["xpath=//div[5]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b49ec72f-1606-465c-8b27-3e6101c99a56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help Center",
+      "targets": [
+        ["linkText=Help Center", "linkText"],
+        ["css=.list-group-item > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Help Center')]", "xpath:link"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/faqs')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help Center')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a427b896-9827-4b19-bc98-ef4868d48b8c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19f69df8-8308-489e-a1fd-9161ffe8c9bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact us",
+      "targets": [
+        ["linkText=Contact us", "linkText"],
+        ["css=#react-candidate-help .list-group-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact us')]", "xpath:link"],
+        ["xpath=//div[@id='react-candidate-help']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contact')]", "xpath:href"],
+        ["xpath=//div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57a096eb-cf95-4b8e-b887-57d548765d49",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.space-top-base:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b01811e-e239-44c0-ae91-5403d69bd5e4",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.space-top-base:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " kareem"
+    }, {
+      "id": "f1519094-2b60-4a4b-b78e-2fccc6f012d5",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.space-top-base:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4836c0c4-1ca7-4bbc-a050-a1528084da82",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.space-top-base:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "10247856"
+    }, {
+      "id": "73b67f90-29cf-40e4-9962-e2c7e67632c6",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Appreciation",
+      "targets": [
+        ["linkText=Appreciation", "linkText"],
+        ["css=.pill-button-group:nth-child(1) > .pill-button:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Appreciation')]", "xpath:link"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[3]/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Appreciation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2519070c-89e0-4e02-a7b8-4ee6499f10bb",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.pill-button-group:nth-child(1)",
+      "targets": [
+        ["css=.pill-button-group:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bc9e377-d55c-4ce8-a885-a38988dc3c85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pill-button-group:nth-child(1)",
+      "targets": [
+        ["css=.pill-button-group:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e510d49-11f3-4aba-8e94-4c045f6e1bc2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Appreciation",
+      "targets": [
+        ["linkText=Appreciation", "linkText"],
+        ["css=.pill-button-group:nth-child(1) > .pill-button:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Appreciation')]", "xpath:link"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[3]/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Appreciation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95a1e252-b945-43d1-8f49-a52a2942c154",
+      "comment": "",
+      "command": "click",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.space-top-base:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d1d9ceb-d88b-467d-8e42-43f3f03ed70d",
+      "comment": "",
+      "command": "type",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=.space-top-base:nth-child(4) .form-control", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "good"
+    }, {
+      "id": "3cfd229c-6305-42e1-80fe-000b45f4bd72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-4",
+      "targets": [
+        ["css=.my-4", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[6]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ff5effc-948f-4a71-9bd8-3cd4b6df2295",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mt-2",
+      "targets": [
+        ["css=.mt-2", "css:finder"],
+        ["xpath=//div[@id='react-contact-us-form']/div/div/div/form/div[2]/div[2]/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'Valid Email is required')]", "xpath:innerText"]
+      ],
+      "value": "Valid Email is required"
+    }]
+  }, {
+    "id": "ac993ce2-3c74-4edc-8c32-1e7de32516c8",
+    "name": "TC_Help_positive",
+    "commands": [{
+      "id": "f2566c73-67a4-4c21-b671-cefecd725aa1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gulftalent.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3988e0de-03f3-4314-a221-6cee03af2b6f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "293353e2-1ca8-4674-bd4f-acd9e5869c60",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Courses",
+      "targets": [
+        ["linkText=Courses", "linkText"],
+        ["css=.dropdown:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Courses')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "055d45a3-ade9-4fb7-a834-461f084c8863",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Most Popular",
+      "targets": [
+        ["linkText=Most Popular", "linkText"],
+        ["css=.col-sm-8:nth-child(3) > .col-heading", "css:finder"],
+        ["xpath=//a[contains(text(),'Most Popular')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[3]/ul/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/courses')])[8]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Most Popular')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60cbbbb6-cac2-421e-a382-df6998b61b52",
+      "comment": "",
+      "command": "click",
+      "target": "css=u",
+      "targets": [
+        ["css=u", "css:finder"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/a/u", "xpath:idRelative"],
+        ["xpath=//u", "xpath:position"],
+        ["xpath=//u[contains(.,'Training provider? List your courses here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3667de14-1501-4d38-a44b-f8631efb5b40",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fba294c-a877-400e-9972-297a1dfa5f91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label-3kk12",
+      "targets": [
+        ["css=.label-3kk12", "css:finder"],
+        ["xpath=//div[@id='Embed']/div/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68d8af4f-e4d0-4bba-99a1-3772621c0444",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f39e6ca-571b-4920-9e2d-68bd445576b6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a00a905-69a9-4fb8-bce0-1e21285a6bd5",
+      "comment": "",
+      "command": "click",
+      "target": "id=1val-field_1.3.10--input",
+      "targets": [
+        ["id=1val-field_1.3.10--input", "id"],
+        ["name=name", "name"],
+        ["css=#\\31val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='1val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dda6e78-941d-4174-9fd2-687392b45c77",
+      "comment": "",
+      "command": "type",
+      "target": "id=1val-field_1.3.10--input",
+      "targets": [
+        ["id=1val-field_1.3.10--input", "id"],
+        ["name=name", "name"],
+        ["css=#\\31val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='1val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " kareem"
+    }, {
+      "id": "25217966-2b12-45b0-83a0-f724d2234157",
+      "comment": "",
+      "command": "click",
+      "target": "id=2val-field_1.3.10--input",
+      "targets": [
+        ["id=2val-field_1.3.10--input", "id"],
+        ["name=email", "name"],
+        ["css=#\\32val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='2val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c2f406b-7f2a-4d2f-8c5e-1db36c9463f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=2val-field_1.3.10--input",
+      "targets": [
+        ["id=2val-field_1.3.10--input", "id"],
+        ["name=email", "name"],
+        ["css=#\\32val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='2val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "mayaelrefai2002@gmail.com"
+    }, {
+      "id": "3727738f-362e-43c2-923b-80ba3ba6d8a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=3val-field_1.3.10--input",
+      "targets": [
+        ["id=3val-field_1.3.10--input", "id"],
+        ["name=phone", "name"],
+        ["css=#\\33val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='3val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33286999-f139-4687-b66d-236f2fb052b5",
+      "comment": "",
+      "command": "type",
+      "target": "id=3val-field_1.3.10--input",
+      "targets": [
+        ["id=3val-field_1.3.10--input", "id"],
+        ["name=phone", "name"],
+        ["css=#\\33val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='3val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "01222484859652"
+    }, {
+      "id": "ef68c025-7141-4032-9531-b58666f2a0c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=4val-field_1.3.10--input",
+      "targets": [
+        ["id=4val-field_1.3.10--input", "id"],
+        ["name=message", "name"],
+        ["css=#\\34val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//textarea[@id='4val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[5]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66de44a1-8725-4cf0-ae10-739e4fa7fb96",
+      "comment": "",
+      "command": "type",
+      "target": "id=4val-field_1.3.10--input",
+      "targets": [
+        ["id=4val-field_1.3.10--input", "id"],
+        ["name=message", "name"],
+        ["css=#\\34val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//textarea[@id='4val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[5]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "8fb1df43-16a9-4c45-9e8f-588a3cc30163",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bvHGRR",
+      "targets": [
+        ["css=.bvHGRR", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/footer/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send message')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97fd2bd7-a677-4acb-a382-73bfdac0a62f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.styles__Container-sc-vd50em-0",
+      "targets": [
+        ["css=.styles__Container-sc-vd50em-0", "css:finder"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/main/div", "xpath:idRelative"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4e4670a9-d9c0-4e72-bb0f-b14ec85a9116",
+    "name": "TC_Help_negative",
+    "commands": [{
+      "id": "0ca58939-99ff-4fe7-8ec4-90fd15ee6fed",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gulftalent.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b58b677-a53e-484d-acfd-a28cee2e1986",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3612b4d-6811-45b6-a102-2b2dae53b50f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-8:nth-child(3) > .col-heading > .fa",
+      "targets": [
+        ["css=.col-sm-8:nth-child(3) > .col-heading > .fa", "css:finder"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[3]/ul/div/div[3]/a/i", "xpath:idRelative"],
+        ["xpath=//div[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feb0fdbb-6ca2-4193-a1d8-bf4026cbb63b",
+      "comment": "",
+      "command": "click",
+      "target": "css=u",
+      "targets": [
+        ["css=u", "css:finder"],
+        ["xpath=//main[@id='main-block']/div/div/div/div/div/div/a/u", "xpath:idRelative"],
+        ["xpath=//u", "xpath:position"],
+        ["xpath=//u[contains(.,'Training provider? List your courses here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2f13226-b29a-4c01-8ac2-9f89ab2bc0ec",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "570299cb-617f-4c67-bba4-c4dec0a76797",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label-3kk12",
+      "targets": [
+        ["css=.label-3kk12", "css:finder"],
+        ["xpath=//div[@id='Embed']/div/div/button/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ce9779d-4b15-49bf-98aa-67e1b0e7aa0a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e0e7672-ac4e-475a-bab0-66a899335f4b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "b54f857c-cc0a-4a19-a423-25ea2d5c4f5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=1val-field_1.3.10--input",
+      "targets": [
+        ["id=1val-field_1.3.10--input", "id"],
+        ["name=name", "name"],
+        ["css=#\\31val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='1val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd1ba694-70d1-45f6-ab56-b605311b415a",
+      "comment": "",
+      "command": "type",
+      "target": "id=1val-field_1.3.10--input",
+      "targets": [
+        ["id=1val-field_1.3.10--input", "id"],
+        ["name=name", "name"],
+        ["css=#\\31val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='1val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": " kareem"
+    }, {
+      "id": "8228dc84-b70b-447d-a500-002089328498",
+      "comment": "",
+      "command": "click",
+      "target": "id=2val-field_1.3.10--input",
+      "targets": [
+        ["id=2val-field_1.3.10--input", "id"],
+        ["name=email", "name"],
+        ["css=#\\32val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='2val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "195e4eec-be07-45c2-b3e4-fac452b26e37",
+      "comment": "",
+      "command": "type",
+      "target": "id=2val-field_1.3.10--input",
+      "targets": [
+        ["id=2val-field_1.3.10--input", "id"],
+        ["name=email", "name"],
+        ["css=#\\32val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='2val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "mayaElrefai2002@gmail.com"
+    }, {
+      "id": "e11c19da-4a4d-462b-b898-a76811d676fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=3val-field_1.3.10--input",
+      "targets": [
+        ["id=3val-field_1.3.10--input", "id"],
+        ["name=phone", "name"],
+        ["css=#\\33val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='3val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac1870de-f68b-4c14-bdaf-95391e9138e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=3val-field_1.3.10--input",
+      "targets": [
+        ["id=3val-field_1.3.10--input", "id"],
+        ["name=phone", "name"],
+        ["css=#\\33val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//input[@id='3val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "kareeem"
+    }, {
+      "id": "173d5b57-1930-449e-97ae-6a27f85d64a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=4val-field_1.3.10--input",
+      "targets": [
+        ["id=4val-field_1.3.10--input", "id"],
+        ["name=message", "name"],
+        ["css=#\\34val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//textarea[@id='4val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[5]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8986c58d-8ec7-4a96-a2b4-923db1200802",
+      "comment": "",
+      "command": "type",
+      "target": "id=4val-field_1.3.10--input",
+      "targets": [
+        ["id=4val-field_1.3.10--input", "id"],
+        ["name=message", "name"],
+        ["css=#\\34val-field_1\\.3\\.10--input", "css:finder"],
+        ["xpath=//textarea[@id='4val-field_1.3.10--input']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[5]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "f6229e09-2c0f-4c41-9831-88a75a861d8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bvHGRR",
+      "targets": [
+        ["css=.bvHGRR", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/footer/div/button", "xpath:idRelative"],
+        ["xpath=//footer/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send message')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09564a5c-cc05-4a81-b883-4658baf25f62",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.StyledMessage-sc-30hgg7-0",
+      "targets": [
+        ["css=.StyledMessage-sc-30hgg7-0", "css:finder"],
+        ["xpath=//div[@id='Embed']/div/div/div/div/form/main/div/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div", "xpath:position"]
+      ],
+      "value": "Enter a valid phone number."
+    }]
+  }, {
+    "id": "ab42e3de-ed10-45fb-b39a-430c71e99864",
+    "name": "Check_for_salary",
+    "commands": [{
+      "id": "d660435c-e5da-49f8-93c5-175622b20570",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gulftalent.com/candidates/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1ed2984-e90c-4c2e-be6f-59241111f162",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa6b64fb-3d77-44b7-8329-a4d602004afa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Salaries",
+      "targets": [
+        ["linkText=Salaries", "linkText"],
+        ["css=.section-salaries > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Salaries')]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[51]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8851bd55-589f-4d1a-ba46-26800b19506f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View More Categories",
+      "targets": [
+        ["linkText=View More Categories", "linkText"],
+        ["css=.col-sm-13 li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'View More Categories')])[2]", "xpath:link"],
+        ["xpath=//html[@id='ng-app']/body/header/div/div/div/ul/li[4]/ul/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/salaries/categories')])[2]", "xpath:href"],
+        ["xpath=//li[4]/ul/div/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aae7c97-8be6-4d88-8e80-40d142b8dc73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(6) > .col-sm-6:nth-child(4) .media",
+      "targets": [
+        ["css=.row:nth-child(6) > .col-sm-6:nth-child(4) .media", "css:finder"],
+        ["xpath=//main[@id='main-block']/div[2]/div[6]/div/div/div/div[6]/div[4]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div[4]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92b29d92-8ae1-46d0-8e35-f0543a718d9f",
+      "comment": "",
+      "command": "click",
+      "target": "name=keyword",
+      "targets": [
+        ["name=keyword", "name"],
+        ["css=.input-blk", "css:finder"],
+        ["xpath=//input[@name='keyword']", "xpath:attributes"],
+        ["xpath=//div[@id='react-salary-search-typeahead']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fedcd450-e688-4282-87fc-a62ac20ac583",
+      "comment": "",
+      "command": "type",
+      "target": "name=keyword",
+      "targets": [
+        ["name=keyword", "name"],
+        ["css=.input-blk:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='keyword']", "xpath:attributes"],
+        ["xpath=//div[@id='react-salary-search-typeahead']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "it m"
+    }, {
+      "id": "7a3c3e74-6ee5-4c28-a005-59c379457abd",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-autowhatever-1--item-0",
+      "targets": [
+        ["id=react-autowhatever-1--item-0", "id"],
+        ["css=#react-autowhatever-1--item-0", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1--item-0']", "xpath:attributes"],
+        ["xpath=//div[@id='react-autowhatever-1']/ul/li", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'IT Manager')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dea4ede-62bb-41a9-8690-b0707300bd79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='react-salary-search-typeahead']/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Calculate Salary')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a829e13f-74a3-41d8-8d1f-3f04b7a94635",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.modal-content",
+      "targets": [
+        ["css=.modal-content", "css:finder"],
+        ["xpath=//html[@id='ng-app']/body/div[8]/div/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4d6016e5-d3d9-4c14-8f4f-a10305314174",
+    "name": "Update_Salary",
+    "commands": [{
+      "id": "ecc04f73-fd5f-44d6-86ba-31cc18f8ffad",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gulftalent.com/uae/salaries/it-manager",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bbb060a-3bcf-4922-a1fd-04ba757a9b56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be837a03-e327-4dcd-adf2-22be420ec2a8",
+      "comment": "",
+      "command": "click",
+      "target": "name=country",
+      "targets": [
+        ["name=country", "name"],
+        ["css=.text-muted:nth-child(5)", "css:finder"],
+        ["xpath=//select[@name='country']", "xpath:attributes"],
+        ["xpath=//div[@id='react-salary-result']/div/div/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1bc1f4e-613d-4a00-9e9a-8e5dc1c95361",
+      "comment": "",
+      "command": "select",
+      "target": "name=country",
+      "targets": [],
+      "value": "label=KWD"
+    }, {
+      "id": "b943ed3d-200a-48b3-b257-ec563824aff1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.col-sm-11 > .text-med",
+      "targets": [
+        ["css=.col-sm-11 > .text-med", "css:finder"],
+        ["xpath=//div[@id='react-salary-result']/div/div/div[2]/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Average Monthly Compensation')]", "xpath:innerText"]
+      ],
+      "value": "Average Monthly Compensation"
+    }]
+  }, {
+    "id": "6aae7c44-f618-460c-bb6f-067d15464c22",
+    "name": "Downoad_pdf_salary",
+    "commands": [{
+      "id": "a9ee3d32-19cb-4027-87a5-5854c0212035",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gulftalent.com/uae/salaries/it-manager",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "543cb8b9-3190-40c5-827f-3998ddde217b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bccc8f75-3e06-43c3-b30c-33eae326678a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-file-pdf-o",
+      "targets": [
+        ["css=.fa-file-pdf-o", "css:finder"],
+        ["xpath=//div[@id='react-salary-result']/div/div/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e915618f-ceb0-4cb8-82f9-400f54550c0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.space-top-base:nth-child(1)",
+      "targets": [
+        ["css=.space-top-base:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='salary-data-download-form']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "161a0991-5d58-47c7-bd2c-e117dea51a8a",
+      "comment": "",
+      "command": "type",
+      "target": "name=fullname",
+      "targets": [
+        ["name=fullname", "name"],
+        ["css=.space-top-base:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='fullname']", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "Kareem"
+    }, {
+      "id": "ebbe7680-eb35-4b98-b8cc-1829f6f6a6b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.space-top-base:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='company']", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c370ce-9002-45ad-848e-2570689bf446",
+      "comment": "",
+      "command": "click",
+      "target": "id=salary-data-download-form",
+      "targets": [
+        ["id=salary-data-download-form", "id"],
+        ["css=#salary-data-download-form", "css:finder"],
+        ["xpath=//form[@id='salary-data-download-form']", "xpath:attributes"],
+        ["xpath=//html[@id='ng-app']/body/div[7]/div/div/div[2]/div/form", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "956d5d1c-2afe-4dae-95a9-695f130c6c1d",
+      "comment": "",
+      "command": "type",
+      "target": "name=company",
+      "targets": [
+        ["name=company", "name"],
+        ["css=.space-top-base:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='company']", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "BUE"
+    }, {
+      "id": "6d08e1d6-8389-4f7b-84db-a29bfee407ea",
+      "comment": "",
+      "command": "click",
+      "target": "name=position",
+      "targets": [
+        ["name=position", "name"],
+        ["css=.space-top-base:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='position']", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdc8447f-8e8a-475e-950e-c99ad781d3b0",
+      "comment": "",
+      "command": "type",
+      "target": "name=position",
+      "targets": [
+        ["name=position", "name"],
+        ["css=.space-top-base:nth-child(3) .form-control", "css:finder"],
+        ["xpath=//input[@name='position']", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "IT manager"
+    }, {
+      "id": "55f460bd-698e-441a-a4ec-4bd23ab9ec4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select > .form-control",
+      "targets": [
+        ["css=.select > .form-control", "css:finder"],
+        ["xpath=(//select[@name='country'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd9838d3-6eeb-44f4-87c9-77b5968fd09c",
+      "comment": "",
+      "command": "select",
+      "target": "css=.select > .form-control",
+      "targets": [],
+      "value": "label=Egypt"
+    }, {
+      "id": "ddced85e-d366-4068-96fd-2103f5537377",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "name=updates",
+      "targets": [
+        ["name=updates", "name"],
+        ["css=.form-check-input", "css:finder"],
+        ["xpath=//input[@name='updates']", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div[6]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8a1ed39-b71d-4390-a670-e31f818b3f44",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=downloadNow",
+      "targets": [
+        ["name=downloadNow", "name"],
+        ["css=.col-sm-offset-5 > .btn-lg", "css:finder"],
+        ["xpath=//button[@name='downloadNow']", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download and Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b496557d-9eb6-4988-bd71-5dc71d08d1c1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=downloadNow",
+      "targets": [
+        ["name=downloadNow", "name"],
+        ["css=.col-sm-offset-5 > .btn-lg", "css:finder"],
+        ["xpath=//button[@name='downloadNow']", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download and Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d54eb9e-e0c7-41e3-b19c-3e2a98856e7e",
+      "comment": "",
+      "command": "click",
+      "target": "name=downloadNow",
+      "targets": [
+        ["name=downloadNow", "name"],
+        ["css=.col-sm-offset-5 > .btn-lg", "css:finder"],
+        ["xpath=//button[@name='downloadNow']", "xpath:attributes"],
+        ["xpath=//form[@id='salary-data-download-form']/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Download and Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "390b6d34-8997-4ad2-b8c7-115e3d4cc6e3",
+    "name": "Kareem210520Test suit",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ab42e3de-ed10-45fb-b39a-430c71e99864", "4d6016e5-d3d9-4c14-8f4f-a10305314174", "6aae7c44-f618-460c-bb6f-067d15464c22"]
+  }],
+  "urls": ["https://www.gulftalent.com/", "https://www.gulftalent.com/candidates/home", "https://www.gulftalent.com/uae/salaries/it-manager"],
+  "plugins": []
+}
